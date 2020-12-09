@@ -16,9 +16,10 @@ phases:
       - echo run react build
       - npm run build
       - echo build complete!
-      - cd build
+      - ls
 
 artifacts:
   files:
     - '**/*'
+  base-directory: 'build'
       
