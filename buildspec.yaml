@@ -16,7 +16,7 @@ phases:
       - echo run react build
       - npm run build
       - echo build complete!
-      - rm -R *.yml LICENSE README* .git*
+      - rm -R *.yaml README* .git*
 
 artifacts:
   files:
