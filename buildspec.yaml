@@ -5,7 +5,7 @@ phases:
   pre_build:
     commands:
       - echo nodejs installation...
-      - curl -sL https://deb.nodesource.com/setup_15.x
+      - curl -sL https://deb.nodesource.com/setup_15.x | bash -
       - apt-get install nodejs -y
       - echo build stage beginnig...
 
