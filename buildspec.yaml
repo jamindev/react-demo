@@ -1,0 +1,25 @@
+version: 0.1
+description: build react app
+
+phases:
+  install:
+    commands:
+      - echo installing node...
+      - sudo apt install nodejs -y
+      - echo node install complete!
+
+  pre-build:
+    commands:
+      - echo build stage beginnig...
+
+  build:
+    commands:
+      - echo adding node_modules...
+      - npm install
+      - echo run react build
+      - npm run build
+      - echo build complete!
+
+  post-build:
+    commands:
+      
