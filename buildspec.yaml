@@ -4,9 +4,9 @@ description: build react app
 phases:
   install:
     runtime-versions:
-      nodejs:latest
+      - nodejs:latest
   command:
-    echo NodeJS runtime was installed...
+    - echo NodeJS runtime was installed...
 
   pre-build:
     commands:
