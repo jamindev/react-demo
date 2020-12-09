@@ -5,7 +5,7 @@ phases:
   pre_build:
     commands:
       - echo nodejs installation...
-      - apt install nodejs -y
+      - apt-get install nodejs -y
       - echo build stage beginnig...
 
   build:
