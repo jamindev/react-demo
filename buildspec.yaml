@@ -5,8 +5,6 @@ phases:
   install:
     runtime-versions:
       nodejs: latest
-  commands:
-    - echo NodeJS runtime was installed...
 
   pre-build:
     commands:
