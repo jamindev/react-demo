@@ -3,10 +3,10 @@ description: build react app
 
 phases:
   install:
-    commands:
-      - echo installing node...
-      - sudo apt install nodejs -y
-      - echo node install complete!
+    runtime-versions:
+      nodejs:latest
+  command:
+    echo NodeJS runtime was installed...
 
   pre-build:
     commands:
@@ -20,6 +20,7 @@ phases:
       - npm run build
       - echo build complete!
 
-  post-build:
-    commands:
+artifacts:
+  files:
+    - build/*
       
