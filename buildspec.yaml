@@ -4,7 +4,7 @@ description: build react app
 phases:
   install:
     runtime-versions:
-      nodejs: latest
+      nodejs: 12.x
 
   pre-build:
     commands:
