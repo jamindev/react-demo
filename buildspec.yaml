@@ -2,7 +2,7 @@ version: 0.1
 description: build react app
 
 phases:
-  pre-build:
+  pre_build:
     commands:
       - echo nodejs installation...
       - apt install nodejs -y
