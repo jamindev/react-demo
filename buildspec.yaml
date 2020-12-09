@@ -18,11 +18,11 @@ phases:
       - echo build complete!
       - ls
       - echo going into build folder
-      - cd /build
+      - cd build/
       - ls
 
 artifacts:
   files:
     - '*'
-  base-directory: '/build'
+  base-directory: 'build/'
       
