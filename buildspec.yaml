@@ -2,12 +2,10 @@ version: 0.1
 description: build react app
 
 phases:
-  install:
-    runtime-versions:
-      nodejs: 8
-
   pre-build:
     commands:
+      - echo nodejs installation...
+      - apt install nodejs -y
       - echo build stage beginnig...
 
   build:
